@@ -7,6 +7,8 @@
 /* section header style */
 .section-header{
     display: flex;
+    padding: 5px;
+    margin: 5px;
     text-align: right;
     
 }
@@ -18,7 +20,7 @@
     text-decoration: none;
     color: white;
     padding: 10px 10px;
-    margin: 10px 10 px;
+    margin: 10px 10px;
     border-radius: 10px;
     background-color: orangered;
 }
@@ -27,6 +29,8 @@
 /* section body style */
 .section-body{
     display: flex;
+    padding: 10px 10px;
+    margin: 10px 10px;
 }
 
 .div-body{
@@ -36,10 +40,10 @@
 
 /* section my plan */
 .section-plan{
-    
+    padding: 10px 10px;
+    margin: 10px 10px;
     display: flex;
-    gap: 100px;
-    padding-left: 50px;
+    gap: 100px;    
     text-align: center;
 }
 .plan-text{
@@ -73,6 +77,8 @@
 /* section footer */
 
 .section-footer{
+    padding: 10px 10px;
+    margin: 10px 10px;
     background-color: black;
     color: white;
     display: flex;
@@ -89,7 +95,7 @@
     text-decoration: none;
     color: orangered;
     padding: 10px 10px;
-    margin: 10px 10 px;
+    margin: 10px 10px;
     border-radius: 10px;
     background-color: white;
 }
