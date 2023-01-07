@@ -1,22 +1,80 @@
+/* universal area */
 *{
-    margin: 20px;
-    
+    margin: 0;
+      
 }
-.header{
-    background-image: url(../images/banner/banner1.png);
-    background-image: linear-gradient(top)
-    
-    
-}
-    
 
-.button-1{
-  background-color: orange;
-  border-style: none;
-  padding: 15px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  
+
+/* section header style */
+.section-header{
+    display: flex;
+    text-align: right;
 }
+.div-header{
+    width: 50%;
+}
+
+.contact-us{
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px;
+    margin: 10px 10 px;
+    border-radius: 10px;
+    background-color: orangered;
+}
+
+
+/* section body style */
+.section-body{
+    display: flex;
+    
+}
+
+.div-body{
+    width: 50%;
+}
+
+
+/* section my plan */
+.section-plan{
+    
+    display: flex;
+    gap: 100px;
+    padding-left: 50px;
+    text-align: center;
+}
+.plan-text{
+    text-align: center;
+}
+.div-plan{
+    text-align: center;
+    
+}
+
+/* section positive */
+.section-positive{
+    
+    background-image: url("../images/watch.png");
+}
+.call-now{
+    text-decoration: none;
+    color: orangered;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* section footer */
+
+.section-bottom{
+    width: 50%;
+    display: flex;
+}
+.Subscribe{
+    text-decoration: none;
+    color: orangered;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
