@@ -1,7 +1,6 @@
 /* universal area */
 *{
     margin: 0;
-      
 }
 
 
@@ -27,7 +26,6 @@
 /* section body style */
 .section-body{
     display: flex;
-    
 }
 
 .div-body{
@@ -37,7 +35,6 @@
 
 /* section my plan */
 .section-plan{
-    
     display: flex;
     gap: 100px;
     padding-left: 50px;
@@ -53,8 +50,8 @@
 
 /* section positive */
 .section-positive{
-    
     background-image: url("../images/watch.png");
+    
 }
 .call-now{
     text-decoration: none;
@@ -65,10 +62,18 @@
 
 /* section footer */
 
-.section-bottom{
-    width: 50%;
+.section-footer{
+    background-color: black;
+    color: white;
     display: flex;
+    gap: 50%;
 }
+.di-future{
+    
+    text-align: left;
+}
+
+
 .Subscribe{
     text-decoration: none;
     color: orangered;
