@@ -8,6 +8,7 @@
 .section-header{
     display: flex;
     text-align: right;
+    
 }
 .div-header{
     width: 50%;
@@ -35,12 +36,14 @@
 
 /* section my plan */
 .section-plan{
+    
     display: flex;
     gap: 100px;
     padding-left: 50px;
     text-align: center;
 }
 .plan-text{
+    
     text-align: center;
 }
 .div-plan{
@@ -50,12 +53,20 @@
 
 /* section positive */
 .section-positive{
+    border-radius: ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px 100px;
     background-image: url("../images/watch.png");
+    background-repeat: no-repeat;
     
 }
 .call-now{
+    
     text-decoration: none;
     color: orangered;
+    padding: 10px 10px;
+    margin: 10px 10 px;
     border-radius: 10px;
     background-color: white;
 }
@@ -75,8 +86,11 @@
 
 
 .Subscribe{
+    
     text-decoration: none;
     color: orangered;
+    padding: 10px 10px;
+    margin: 10px 10 px;
     border-radius: 10px;
     background-color: white;
 }
